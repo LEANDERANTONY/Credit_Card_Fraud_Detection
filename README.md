@@ -5,10 +5,10 @@ This project focuses on detecting fraudulent credit card transactions in a highl
 ## 🔍 Problem Statement
 Develop a machine learning model that accurately classifies fraud cases from legitimate transactions using anonymized data.
 
-## 📊 Dataset
-- Total samples: ~284,807 transactions
-- Fraud cases: 492 (~0.17%)
-- Source: Kaggle (European cardholder dataset)
+## 📁 Data
+Dataset used: [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)  
+Contains 284,807 transactions with 492 fraud cases (~0.17%)
+
 
 ## ⚙️ Approach
 - Preprocessing: Dropped 'Time', scaled 'Amount'
